@@ -1,2 +1,9 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+# IntelliJ project files
+.idea/
+*.iml
+
+# Build directories
+target/
+out/
