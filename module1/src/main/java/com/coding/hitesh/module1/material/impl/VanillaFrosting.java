@@ -1,13 +1,12 @@
-package com.coding.hitesh.module1.impl;
-
+package com.coding.hitesh.module1.material.impl;
 import com.coding.hitesh.module1.material.Frosting;
 import org.springframework.stereotype.Component;
 
-@Component
-public class StrawberryFrosting implements Frosting {
-
+@Component("VanillaFrosting")
+public class VanillaFrosting implements Frosting
+{
     public String getFrostingType(String frostingType)
     {
-        return "Strawberry Frosting";
+        return "Vanilla Frosting";
     }
 }

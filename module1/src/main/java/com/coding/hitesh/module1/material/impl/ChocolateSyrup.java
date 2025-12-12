@@ -1,13 +1,13 @@
-package com.coding.hitesh.module1.impl;
+package com.coding.hitesh.module1.material.impl;
 
 import com.coding.hitesh.module1.material.Syrup;
 import org.springframework.stereotype.Component;
 
-@Component
-public class StrawberrySyrup implements Syrup {
+@Component("ChocolateSyrup")
+public class ChocolateSyrup implements Syrup {
 
     public String getSyrupType(String syrupType)
     {
-        return "Strawberry Syrup";
+        return "Chocolate Syrup";
     }
 }
